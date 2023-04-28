@@ -15,7 +15,7 @@ interface ChallangesContextData {
     currentExperience: number;//experiencia atual
     experienceToNextLevel: number;// experiência para o próximo nível:
     challengesCompleted: number;//desafios completos
-    activeChallenge: Challenge;//desafio ativo
+    activeChallenge: Challenge | null;//desafio ativo
     levelUp: () => void; //subir de nível
     startNewChallenge: () => void; //iniciar o Novo Desafio
     resetChallenge: () => void; //redefinir desafio
@@ -39,7 +39,7 @@ export function ChallengesProvider({children} : ChallengesProviderProps){
   const [challengesCompleted, setChallengesCompleted] = useState(0);
   
 //estado para armazenar o desafio
- const [activeChallenge, setActiveChallenge]  = useState(null)
+ const [activeChallenge, setActiveChallenge]  = useState<Challenge | null>(null) // ajuste de tipo
 
  //variavel para calcular o level
  const experienceToNextLevel = Math.pow((level + 1) * 4, 2)
@@ -58,7 +58,7 @@ export function ChallengesProvider({children} : ChallengesProviderProps){
         const randomChallengeIndex = Math.floor(Math.random() * challenges.length)
 
         //
-        const challenge = challenges[randomChallengeIndex];
+        const challenge = challenges[randomChallengeIndex] as Challenge; // ajuste de tipo
 
         setActiveChallenge(challenge)
 
