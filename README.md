@@ -1,38 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+   challenges | NLW#4
+</h1>
+<p align="center"> Application developed in the fourth edition of Rocketseat Next Level Week 💻🚀 </p>
 
-## Getting Started
+<p align="center">
+ <a href="#objective">Objective</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#contribution">Contribution</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#license">License</a>
+</p>
 
-First, run the development server:
+<h1 align="center">
+  <img width="500" style="border-radius: 10px" height="auto" alt="challenges" title="challanges" src="public/assets/home.jpeg" />
+</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h4 align="center"> 
+	🚧 challenges| NLW#4 ⏰📈 Loading...  🚧
+</h4>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="objective" > 🎯 Objective </h2>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Track your time, be more productive and take care of your health. The layout of Move.it is available <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=">here</a>.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<h2 id="technologies"> 🛠 Technologies </h2>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The following tools were used in the construction of the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next](https://nextjs.org)
+- [Node.js](https://nodejs.org/en/)
+- [VSCode](https://code.visualstudio.com)
+- [Git Bash](https://gitforwindows.org/)
 
-## Learn More
+<h2 id="contribution"> 🤝 Contribution </h2>
 
-To learn more about Next.js, take a look at the following resources:
+This project is for study purposes too, so send me an email telling me what you are doing and why you are doing it, teach me what you know. All kinds of contributions are very welcome and appreciated!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="author"> 💻 Author </h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74329721?v=4" width="100px;" alt="avatar github"/>
 
-## Deploy on Vercel
+By Lucas Filipe👋🏽 Find me:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Linkedin Badge](https://img.shields.io/badge/-lucasfilipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anabrtorres/)](https://www.linkedin.com/in/lucas-ramos-1b61b81bb/)
+[![Gmail Badge](https://img.shields.io/badge/-lucasfiliperamos99@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucasfiliperamos99@gmail.com)](mailto:lucasfiliperamos99@gmail.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 id="license"> 📝 License </h2>
+
+This project is under the MIT license.
